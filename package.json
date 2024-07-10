@@ -1,0 +1,22 @@
+{
+  "name": "bucket-services",
+  "version": "0.0.1",
+  "description": "Servicio backend para gestión de archivos multimedia y documentos",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./src/index.js",
+    "dev": "nodemon ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Jeiel Lovera https://github.com/PRY-202407-BLUE",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  },
+  "dependencies": {
+    "express": "^4.19.2",
+    "firebase-admin": "^12.2.0",
+    "multer": "^1.4.5-lts.1"
+  }
+}
